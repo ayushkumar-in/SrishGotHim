@@ -1,3 +1,48 @@
+.center-img {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pattern-main {
+    background-image: url('../../images/illustrations/pattern.svg');
+    height: 70vh;
+    width: 70vh;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-70%, -50%);
+    animation: rotate 105s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: translate(-70%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-70%, -50%) rotate(360deg);
+    }
+}
+
+.main-cover {
+    z-index: 1;
+    position: absolute;
+    height: 100vh;
+    width: 65%;
+    left: 35%;
+    box-shadow: -10px 0px 15px rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
+}
+
+.main-text {
+    color: #ebb875;
+    font-family: 'Great Vibes','Parisienne', cursive;
+    position: relative;
+    font-size: 60px;
+}
+
+/* ------------------------------ */
+
 .scroll-container {
     z-index: 0;
     height: 100%;
