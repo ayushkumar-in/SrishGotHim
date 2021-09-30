@@ -93,10 +93,10 @@ a {
 .main-cover {
     z-index: 1;
     position: absolute;
-    height: 45vh;
+    height: 48vh;
     width: 100%;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
 }
 
 .main-text {
@@ -104,13 +104,17 @@ a {
     /* font-family: 'Great Vibes', 'Parisienne', cursive; */
     font-family: 'Italianno', cursive;
     position: relative;
-    font-size: 60px;
+    font-size: 48px;
     line-height: 60px;
 }
 .date-text{
     position: absolute;
-    bottom: 20%;
-    font-size: 25px;
+    width: 80%;
+    padding: 5px;
+    bottom: 15%;
+    font-size: 24px;
+    border-top: 1px solid var(--theme-2);
+    border-bottom: 1px solid var(--theme-2);
 }
 /* ======================================= */
 
