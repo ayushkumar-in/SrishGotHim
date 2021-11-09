@@ -32,19 +32,158 @@ section {
 .hs1-layer1 {
     z-index: 1;
     position: absolute;
-    background-image: url("../../images/home/layer-1.png");
+    background-image: url("../../images/home/3l1.png");
+}
+
+#pic11 {
+    animation: boat1 10s ease-in-out infinite;
+    transform: translateY(-30px);
+    height: calc(100vh + 30px);
+}
+
+@keyframes boat1 {
+    0% {
+        transform: translateY(-30px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-30px);
+    }
 }
 
 .hs1-layer2 {
     z-index: 2;
     position: absolute;
-    background-image: url("../../images/home/layer-2.png");
+    background-image: url("../../images/home/3l2.png");
 }
 
+#pic12 {
+    animation: boat2 10s ease-in-out infinite;
+    transform: translate(-10px, -10px);
+    height: calc(100vh + 10px);
+    width: calc(100vw + 10px);
+}
+
+@keyframes boat2 {
+    0% {
+        transform: translate(-10px, -10px);
+    }
+    50% {
+        transform: translate(0px, 0px);
+    }
+    100% {
+        transform: translate(-10px, -10px);
+    }
+}
+
+.hs2-layer1 {
+    z-index: 3;
+    position: absolute;
+    background-image: url("../../images/home/1l1.png");
+}
+
+#pic21 {
+    animation: taj1 20s ease-in-out infinite;
+    transform: translateX(0px);
+    width: calc(100vw + 40px);
+}
+
+@keyframes taj1 {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-40px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.hs2-layer2 {
+    z-index: 4;
+    position: absolute;
+    background-image: url("../../images/home/1l2.png");
+}
+
+#pic22 {
+    animation: taj2 20s ease-in-out infinite;
+    transform: translateX(0px);
+    width: calc(100vw + 70px);
+    background-position: right!important;
+}
+
+@keyframes taj2 {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(-70px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.hs3-layer1 {
+    z-index: 5;
+    position: absolute;
+    background-image: url("../../images/home/2l1.png");
+    background-position: left!important;
+}
+
+#pic31 {
+    animation: dark1 30s ease-in-out infinite;
+    transform: translateX(-90px);
+    width: calc(100vw + 90px);
+    background-position: left!important;
+}
+
+@keyframes dark1 {
+    0% {
+        transform: translateX(-90px);
+    }
+    50% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-90px);
+    }
+}
+
+.hs3-layer2 {
+    z-index: 6;
+    position: absolute;
+    background-image: url("../../images/home/2l2.png");
+    background-position: left!important;
+}
+
+#pic32 {
+    animation: dark2 30s ease-in-out infinite;
+    transform: translateX(0px);
+    background-position: left!important;
+}
+
+@keyframes dark2 {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(50px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+#album{
+    background-color: #333;
+}
 .hs1-layer3 {
     z-index: 3;
     position: absolute;
-    background-image: url("../../images/home/layer-3.png");
+    background-image: url("../../images/home/l3.png");
 }
 
 .hs1-layer4 {
