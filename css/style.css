@@ -237,6 +237,42 @@ font-size: 14px!important;
 0%{transform: rotate(0deg);}
 100%{transform: rotate(360deg);}    
 }
+.footSection{
+    background: #5c094d !important;
+}
+.cover {
+    background: #5c094d !important;
+    color: #ebb875;
+}
+
+.page {
+    background: #efefef;
+}
+
+#magzine {
+    position: relative;
+    height: 80vh;
+    width: 75vw;
+    transition: 1s all;
+}
+
+#magzine .shadow {
+    box-shadow: 5px 5px 15px #20202077, -5px -5px 15px #25252555;
+}
+
+#magzine .page-wrapper {
+    perspective: 2000px;
+}
+
+#magzine .odd {
+    background: -webkit-gradient(linear, right top, left top, color-stop(0.95, #fff), color-stop(1, #cacaca));
+    background-image: -webkit-linear-gradient(right, #fff 95%, #cacaca 100%);
+}
+
+#magzine .even {
+    background: -webkit-gradient(linear, left top, right top, color-stop(0.95, #fff), color-stop(1, #dadada));
+    background-image: -webkit-linear-gradient(left, #fff 95%, #dadada 100%);
+}
 
 /* mobile portrait */
 

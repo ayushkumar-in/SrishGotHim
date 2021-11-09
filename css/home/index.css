@@ -177,8 +177,9 @@ section {
         transform: translateX(0px);
     }
 }
-#album{
-    background-color: #040404;
+#mag-container{
+    background-image: -webkit-linear-gradient(#040404,#5c094d);
+    /* background-color: #040404; */
 }
 .hs1-layer3 {
     z-index: 3;

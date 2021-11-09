@@ -7,3 +7,11 @@ window.addEventListener("load", function () {
 function navigateTo(destination) {
   window.location = destination;
 }
+
+$("#magzine").turn({
+  elevation: 10,
+  gradients: true,
+  acceleration: true,
+  autoCenter: true,
+  duration: 1500
+});
