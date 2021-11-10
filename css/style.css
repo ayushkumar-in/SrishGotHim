@@ -52,7 +52,7 @@ section {
 /* ------------------ */
 
 .glass {
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(10px);
 }
 
 .header-icon {
@@ -246,7 +246,7 @@ font-size: 14px!important;
 }
 
 .page {
-    background: #efefef;
+    background: #efefef;   
 }
 
 #magzine {
@@ -272,6 +272,52 @@ font-size: 14px!important;
 #magzine .even {
     background: -webkit-gradient(linear, left top, right top, color-stop(0.95, #fff), color-stop(1, #dadada));
     background-image: -webkit-linear-gradient(left, #fff 95%, #dadada 100%);
+}
+.page-content{
+    height: calc(100% - 40px)!important;
+    width:calc(100% - 40px)!important;
+    left: 20px;
+    top: 20px;
+}
+.albm1{
+    background-image: url("../images/album/1.JPG");
+    
+}
+.albm2{
+    background-image: url("../images/album/2.JPG");
+    
+}
+.albm3{
+    background-image: url("../images/album/3.JPG");
+    
+}
+.albm4{
+    background-image: url("../images/album/4.JPG");
+    
+}
+.albm5{
+    background-image: url("../images/album/5.JPG");
+    
+}
+.albm6{
+    background-image: url("../images/album/6.JPG");
+    
+}
+.albm7{
+    background-image: url("../images/album/7.JPG");
+    
+}
+.albm8{
+    background-image: url("../images/album/8.JPG");
+    
+}
+.albm9{
+    background-image: url("../images/album/9.JPG");
+    
+}
+.albm10{
+    background-image: url("../images/album/10.JPG");
+    
 }
 
 /* mobile portrait */
