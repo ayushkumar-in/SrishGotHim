@@ -280,13 +280,14 @@ font-size: 14px!important;
     top: 20px;
 }
 .cover1{
-    background-image: url("../images/illustrations/front.png")!important;
+    background-image: url("../images/home/front.png")!important;
     background-position: left!important;
     }
 .cover2{
-    background-image: url("../images/illustrations/back.png")!important;
+    background-image: url("../images/home/back.png")!important;
     background-position: right!important;
 }
+
 .albm1{
     background-image: url("../album/1.jpg");
     
