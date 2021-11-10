@@ -226,3 +226,19 @@ section {
     font-size: 22px;
     cursor: pointer;
 }
+.special{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    font-weight: 500;
+    position: absolute;
+    z-index: 99;
+    line-height: 60px;
+    color: #971a1d;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #5c094d;
+  width: 95%;
+  text-align: center;
+}
+.main-head{
+    top: 20vh;
+}

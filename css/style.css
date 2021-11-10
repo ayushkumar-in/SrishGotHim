@@ -252,7 +252,7 @@ font-size: 14px!important;
 #magzine {
     position: relative;
     height: 80vh;
-    width: 75vw;
+    width: 85vw;
     transition: 1s all;
 }
 
@@ -276,8 +276,16 @@ font-size: 14px!important;
 
 /* mobile portrait */
 
-@media only screen and (max-width: 567px) {}
+@media only screen and (max-width: 567px) {
+    .special{
+        font-size: 40px!important;
+    }
+}
 
 /* mobile landscape, tab */
 
-@media only screen and (min-width: 568px) and (max-width: 1024px) {}
+@media only screen and (min-width: 568px) and (max-width: 1023px) {
+    .special{
+        font-size: 40px!important;
+    }
+}
