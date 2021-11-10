@@ -241,7 +241,7 @@ font-size: 14px!important;
     background: #5c094d !important;
 }
 .cover {
-    background: #5c094d !important;
+    /* background-color: #5c094d; */
     color: #ebb875;
 }
 
@@ -278,6 +278,14 @@ font-size: 14px!important;
     width:calc(100% - 40px)!important;
     left: 20px;
     top: 20px;
+}
+.cover1{
+    background-image: url("../images/illustrations/front.png")!important;
+    background-position: left!important;
+    }
+.cover2{
+    background-image: url("../images/illustrations/back.png")!important;
+    background-position: right!important;
 }
 .albm1{
     background-image: url("../album/1.jpg");
